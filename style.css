@@ -1,0 +1,114 @@
+* {
+  font-family: "Lucida Grande";
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  padding: 3px;
+}
+
+.box-1 {
+  height: 400px;
+}
+
+.judul {
+  width: 50%;
+  padding-left: 20px;
+  display: grid;
+  float: left;
+  background-color: white;
+  color: black;
+}
+
+.soal-mendatar {
+  margin-left: 20px;
+}
+
+.soal-menurun {
+  margin-left: 20px;
+}
+
+.kotaktts {
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  float: right;
+}
+
+td p {
+  z-index: 3;
+  text-align: left;
+}
+
+.putih span {
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.putih p {
+  margin: 0;
+  padding: 0;
+  float: left;
+  font-size: 10px;
+  background-color: white;
+  text-transform: lowercase;
+}
+
+.box-2 {
+  width: 100%;
+  height: 200px;
+  display: inline-block;
+  border-top: 1px solid grey;
+}
+
+.jawaban {
+  margin: 0 auto;
+  width: 1170px;
+  text-align: center;
+}
+
+.tabel {
+  width: auto;
+  height: auto;
+  display: block;
+}
+
+.baris {
+  float: left;
+}
+
+.kotak {
+  margin: 0;
+  padding: 3px;
+  float: left;
+  display: inline-block;
+  border: 1px solid rgb(125, 124, 124);
+}
+
+.putih {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  color: black;
+}
+
+.hitam {
+  width: 30px;
+  height: 30px;
+  background-color: #000;
+}
+.judul p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+select {
+  background-color: lightgray;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
