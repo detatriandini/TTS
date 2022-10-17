@@ -36,18 +36,13 @@ a {
   float: right;
 }
 
-td p {
-  z-index: 3;
-  text-align: left;
-}
-
-.putih span {
+.kotak-putih span {
   text-align: center;
   font-size: 14px;
   text-transform: uppercase;
 }
 
-.putih p {
+.kotak-putih p {
   margin: 0;
   padding: 0;
   float: left;
@@ -79,26 +74,29 @@ td p {
   float: left;
 }
 
-.kotak {
+.kotak-hitam {
   margin: 0;
   padding: 3px;
   float: left;
   display: inline-block;
   border: 1px solid rgb(125, 124, 124);
+  width: 30px;
+  height: 30px;
+  background-color: #000;
 }
 
-.putih {
+.kotak-putih {
+  margin: 0;
+  padding: 3px;
+  float: left;
+  display: inline-block;
+  border: 1px solid rgb(125, 124, 124);
   width: 30px;
   height: 30px;
   background-color: white;
   color: black;
 }
 
-.hitam {
-  width: 30px;
-  height: 30px;
-  background-color: #000;
-}
 .judul p {
   font-size: 20px;
   font-weight: bold;
