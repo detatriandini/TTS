@@ -23,7 +23,7 @@ button.addEventListener("click", function () {
     for (let i = 0; i < t1.length; i++) {
       t1[i].innerHTML = jawaban[i];
     }
-  } else if (soal === "menurun-2" && jawban === "tadarus") {
+  } else if (soal === "menurun-2" && jawaban === "tadarus") {
     alert("Jawaban anda benar");
     for (let i = 0; i < t2.length; i++) {
       t2[i].innerHTML = jawaban[i];
